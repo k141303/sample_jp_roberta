@@ -1,0 +1,2 @@
+# sample_jp_roberta
+日本語Wikipediaで学習したRoBERTa-baseのサンプルコードです。
