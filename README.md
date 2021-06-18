@@ -14,7 +14,7 @@ python3 main.py
 
 ## RoBERTa学習設定
 
-fairseqを用いて学習したものをpytorch用に変換しました。
+[fairseq](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.pretraining.md)を用いて学習したものをpytorch用に変換しました。
 学習に使用したスクリプトは以下の通りです。
 
 ~~~bash:train.sh
