@@ -1,7 +1,18 @@
 # 日本語RoBERTa-base
 日本語Wikipediaで学習したRoBERTa-baseのサンプルコードです。
 
-## 学習設定
+## 使用方法
+
+必要なモデルを[Google Drive](https://drive.google.com/file/d/1cMIED6Yt38WSBXyhTpE8rlMQjLuWzGol/view?usp=sharing)からダウンロードし、`model`下に置いてください。
+
+実行手順は以下の通りです。
+
+~~~bash
+pip install -r requirements.txt
+python3 main.py
+~~~
+
+## RoBERTa学習設定
 
 fairseqを用いて学習したものをpytorch用に変換しました。
 学習に使用したスクリプトは以下の通りです。
@@ -27,13 +38,4 @@ fairseq-train --fp16 $DATA_DIR \
     --save-dir model/roberta_base_wiki201221_janome_vocab_32000 --save-interval 10 \
     --max-update $TOTAL_UPDATES --log-format simple --log-interval 1 \
     --skip-invalid-size-inputs-valid-test
-~~~
-
-## 使用方法
-
-必要なモデルを[Google Drive](https://drive.google.com/file/d/1cMIED6Yt38WSBXyhTpE8rlMQjLuWzGol/view?usp=sharing)からダウンロードし、`model`下に置いてください。
-
-~~~bash
-pip install -r requirements.txt
-python3 main.py
 ~~~
