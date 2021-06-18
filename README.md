@@ -4,6 +4,7 @@
 ## 学習設定
 
 fairseqを用いて学習したものをpytorch用に変換しました。
+学習に使用したスクリプトは以下の通りです。
 
 ~~~bash:train.sh
 TOTAL_UPDATES=125000    # Total number of training steps
