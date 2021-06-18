@@ -31,6 +31,8 @@ fairseq-train --fp16 $DATA_DIR \
 
 ## 使用方法
 
+必要なモデルを[Google Drive](https://drive.google.com/file/d/1cMIED6Yt38WSBXyhTpE8rlMQjLuWzGol/view?usp=sharing)からダウンロードし、`model`下に置いてください。
+
 ~~~bash
 pip install -r requirements.txt
 python3 main.py
