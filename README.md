@@ -3,7 +3,7 @@
 
 ## 使用方法
 
-必要なモデルを[Google Drive](https://drive.google.com/file/d/1cMIED6Yt38WSBXyhTpE8rlMQjLuWzGol/view?usp=sharing)からダウンロードし、`model`下に置いてください。
+必要なモデルを[Google Drive](https://drive.google.com/file/d/1cMIED6Yt38WSBXyhTpE8rlMQjLuWzGol/view?usp=sharing)からダウンロードし、解凍後`model`下に置いてください。
 
 実行手順は以下の通りです。
 
