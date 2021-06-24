@@ -41,6 +41,6 @@ if __name__ == '__main__':
     vocab = load_json(
         os.path.join(args.model_dir, args.vocab_name)
     )
-    token_ids = [vocab.get(token, vocab["<mask>"]) for token in tokens]
+    token_ids = [vocab.get(token, vocab["<unk>"]) for token in tokens]
 
     outputs = model(input_ids = torch.tensor([token_ids]))
